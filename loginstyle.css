@@ -1,0 +1,69 @@
+body{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+#form1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#container{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    height: auto;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 700px;
+}
+
+input{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+
+button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: solid 2px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+}
+
+#signup{
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 70px;
+   margin-right: 0px;
+   margin:20px 0px 10px 70px;
+
+}
+a{
+   font-size: 18px;
+   margin-top: 20px;
+   color: blue;
+}
+
+#errormessage{
+    font-size: 18px;
+    color: rgb(9, 9, 175);
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif
+}
+.btncontainer{
+    display: grid;
+    justify-content: center;
+}

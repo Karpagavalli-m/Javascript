@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+.input-group{
+    display: grid;
+    justify-content: start;
+} 
+
+
+#form2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+label,p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+label{
+    font-weight: bold;
+    color: white;
+}
+h2{
+    color: white;
+}
+.error{
+    color: rgb(9, 9, 175);
+
+    margin-top: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif
+}
+#container{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    height: auto;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 700px;
+    
+}
+
+input{
+    font-size: 20px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.btncontainer{
+    display: grid;
+    justify-content: center;
+}
+
+
+.btn{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: solid 2px;
+    border-radius: 10px;
+    /* width: fit-content; */
+   
+    
+}
+
