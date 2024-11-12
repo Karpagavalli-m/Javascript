@@ -22,7 +22,7 @@ body{
     display:flex;
     align-items: center;
    justify-content: center;
-     background-color:black;
+
 }
 
 h2{
@@ -33,6 +33,7 @@ h2{
 
 button{
     font-size: 22px;
+    padding:3px;
     width: fit-content;
     margin: auto;
     border-radius: 5px;
