@@ -28,8 +28,8 @@ h2{
 
 button{
     font-size: 22px;
-    padding: 6px;
-    margin: 5px auto;
+    width: fit-content;
+    margin: auto;
     border-radius: 5px;
     background-color:blueviolet;
     color: white;
@@ -39,7 +39,7 @@ button{
 input{
     font-size: 22px;
     text-align: center;
-    min-width: 200px;
+    max-width: 200px;
     height: 6vh;
     text-align: center;
     margin-right: 5px;
