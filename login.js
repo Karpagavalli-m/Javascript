@@ -26,7 +26,7 @@ form1.addEventListener("submit",(e)=>{
 
 function loginValidation()
 {
-    console.log(arr2)
+  
    
     let loginemailvalue=loginemail.value.toLowerCase().trim();
     let loginpasswordvalue=loginpassword.value.trim();
@@ -35,7 +35,7 @@ function loginValidation()
     {
     for(let obj of arr2)
     {
-        console.log(obj)
+        
         if(obj.email===loginemailvalue&&obj.password===loginpasswordvalue){
             loginerrormessage.innerHTML=""
             alert("Login successful");
