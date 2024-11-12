@@ -18,7 +18,11 @@ body{
     padding: 20px;
     min-width: 200px;
 }
-
+.todo-input{
+    display:flex;
+    align-items: center;
+   justify-content: center;
+}
 
 h2{
     text-align: center;
@@ -39,7 +43,7 @@ button{
 input{
     font-size: 22px;
     text-align: center;
-    max-width: 200px;
+/*     max-width: 200px; */
     height: 6vh;
     text-align: center;
     margin-right: 5px;
