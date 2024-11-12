@@ -123,6 +123,7 @@ arr.push(obj)
  
  localStorage.setItem("Userdetails",JSON.stringify(arr))
  username.value=email.value=password.value=confirmpassword.value=""
+  email.value="";
 }
  return true;
 }
