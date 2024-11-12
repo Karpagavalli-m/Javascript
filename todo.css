@@ -44,7 +44,7 @@ button{
 input{
     font-size: 22px;
     text-align: center;
-    min-width: 100px;
+    max-width: 100px;
     height: 6vh;
     text-align: center;
     margin-right: 5px;
