@@ -38,7 +38,7 @@ function formValidation()
 
 
     if(usernameval!==""){
-        console.log("success")
+        
         successInput(username);
         success=true;
     }
@@ -56,7 +56,7 @@ function formValidation()
         }
     else if(emailformat.test(emailval))
     {
-        //console.log("success")
+       
         for(let obj of arr){
             if(obj.email===emailval)
             {
@@ -70,7 +70,7 @@ function formValidation()
     }
     else
     { 
-        //console.log("success")
+        
         errormessage("Invalid Email address",email)
         success=false;
         return false;
@@ -83,7 +83,7 @@ function formValidation()
     }
     else if(passwordval.length>=6){
         successInput(password);
-        console.log("success")
+       
         success=true;
     }
     else{
@@ -116,13 +116,13 @@ obj.username=usernameval;
 obj.email=emailval;
 obj.password=passwordval;
 obj.todos=[]
-console.log(arr)
 
-//console.log(obj);
+
+
 arr.push(obj)
  
  localStorage.setItem("Userdetails",JSON.stringify(arr))
- username.value=emailval.value=passwordval.value=confirmpasswordval.value=""
+ username.value=email.value=password.value=confirmpassword.value=""
 }
  return true;
 }
